@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA70F3A286E3233004937A8 /* booksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F39286E3233004937A8 /* booksTableViewController.swift */; };
 		63130F09286B8BBE005D85A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F08286B8BBE005D85A9 /* AppDelegate.swift */; };
 		63130F0B286B8BBE005D85A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */; };
 		63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F0C286B8BBE005D85A9 /* ViewController.swift */; };
@@ -19,12 +20,10 @@
 		63F826C8286CF040006E6038 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F826C7286CF040006E6038 /* AddToDoViewController.swift */; };
 		63F826CA286CF17A006E6038 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F826C9286CF17A006E6038 /* CompleteToDoViewController.swift */; };
 		63F826F3286E1429006E6038 /* musicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F826F2286E1429006E6038 /* musicViewController.swift */; };
-		AB26EE31286E0DE7000DD16A /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26EE30286E0DE7000DD16A /* XOButton.swift */; };
-		AB26EE33286E0E45000DD16A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26EE32286E0E44000DD16A /* ContentView.swift */; };
-		AB26EE35286E0E91000DD16A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB26EE34286E0E91000DD16A /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA70F39286E3233004937A8 /* booksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksTableViewController.swift; sourceTree = "<group>"; };
 		63130F05286B8BBE005D85A9 /* productivePuppies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = productivePuppies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63130F08286B8BBE005D85A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +38,6 @@
 		63F826C7286CF040006E6038 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		63F826C9286CF17A006E6038 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		63F826F2286E1429006E6038 /* musicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicViewController.swift; sourceTree = "<group>"; };
-		AB26EE30286E0DE7000DD16A /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
-		AB26EE32286E0E44000DD16A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AB26EE34286E0E91000DD16A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +74,8 @@
 				63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */,
 				63130F0C286B8BBE005D85A9 /* ViewController.swift */,
 				63130F0E286B8BBE005D85A9 /* Main.storyboard */,
+				2EA70F39286E3233004937A8 /* booksTableViewController.swift */,
 				63F826F2286E1429006E6038 /* musicViewController.swift */,
-				AB26EE30286E0DE7000DD16A /* XOButton.swift */,
-				AB26EE32286E0E44000DD16A /* ContentView.swift */,
-				AB26EE34286E0E91000DD16A /* Utils.swift */,
 				63F826C9286CF17A006E6038 /* CompleteToDoViewController.swift */,
 				63F826C7286CF040006E6038 /* AddToDoViewController.swift */,
 				63F826C5286CEB90006E6038 /* ToDo.swift */,
@@ -167,15 +161,13 @@
 			files = (
 				63F826C6286CEB90006E6038 /* ToDo.swift in Sources */,
 				63F826C4286CEB43006E6038 /* ToDoTableViewController.swift in Sources */,
-				AB26EE31286E0DE7000DD16A /* XOButton.swift in Sources */,
 				63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */,
 				63F826C8286CF040006E6038 /* AddToDoViewController.swift in Sources */,
 				63130F13286B8BBE005D85A9 /* productivePuppies.xcdatamodeld in Sources */,
-				AB26EE33286E0E45000DD16A /* ContentView.swift in Sources */,
-				AB26EE35286E0E91000DD16A /* Utils.swift in Sources */,
 				63F826F3286E1429006E6038 /* musicViewController.swift in Sources */,
 				63130F09286B8BBE005D85A9 /* AppDelegate.swift in Sources */,
 				63F826CA286CF17A006E6038 /* CompleteToDoViewController.swift in Sources */,
+				2EA70F3A286E3233004937A8 /* booksTableViewController.swift in Sources */,
 				63130F0B286B8BBE005D85A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
