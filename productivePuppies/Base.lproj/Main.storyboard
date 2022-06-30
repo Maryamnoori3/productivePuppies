@@ -394,6 +394,18 @@
                                     <segue destination="f3r-TJ-u5a" kind="show" id="s1j-kK-B6v"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlU-cd-Mdl">
+                                <rect key="frame" x="20" y="797" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.61200018379999999" green="0.3113652489" blue="0.82033610379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Tic Tac Toe🎲 ">
+                                    <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="3ad-ra-XQ5" kind="show" id="14g-53-UwZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CeW-e9-CuA"/>
                         <color key="backgroundColor" red="0.70254858104459095" green="0.88282101855322381" blue="0.96983832120895386" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -487,6 +499,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="27j-Mf-zr0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="986.95652173913049" y="742.63392857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7NB-Lh-8jm">
+            <objects>
+                <viewController id="3ad-ra-XQ5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0S4-3V-IOG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="j5z-Gk-Yil"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hRi-Ud-6vF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bAW-Yq-3m7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1774" y="743"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="we2-57-xPE">
