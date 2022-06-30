@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CC4C72F286CD78900D292AD /* timerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC4C72E286CD78900D292AD /* timerTableViewController.swift */; };
 		63130F09286B8BBE005D85A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F08286B8BBE005D85A9 /* AppDelegate.swift */; };
 		63130F0B286B8BBE005D85A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */; };
 		63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F0C286B8BBE005D85A9 /* ViewController.swift */; };
@@ -22,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CC4C72E286CD78900D292AD /* timerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerTableViewController.swift; sourceTree = "<group>"; };
 		63130F05286B8BBE005D85A9 /* productivePuppies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = productivePuppies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63130F08286B8BBE005D85A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				63130F08286B8BBE005D85A9 /* AppDelegate.swift */,
-				1CC4C72E286CD78900D292AD /* timerTableViewController.swift */,
 				63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */,
 				63130F0C286B8BBE005D85A9 /* ViewController.swift */,
 				63130F0E286B8BBE005D85A9 /* Main.storyboard */,
@@ -156,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC4C72F286CD78900D292AD /* timerTableViewController.swift in Sources */,
 				63F826C6286CEB90006E6038 /* ToDo.swift in Sources */,
 				63F826C4286CEB43006E6038 /* ToDoTableViewController.swift in Sources */,
 				63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */,
