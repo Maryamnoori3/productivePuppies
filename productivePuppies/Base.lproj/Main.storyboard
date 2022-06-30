@@ -668,6 +668,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timer background " translatesAutoresizingMaskIntoConstraints="NO" id="RrH-an-Pd7" userLabel="timer background">
                                 <rect key="frame" x="-95" y="-39" width="582" height="1041"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91976243260000001" green="0.71207883369342029" blue="0.62243099643014932" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdW-cA-QEh">
                                 <rect key="frame" x="96" y="273" width="99" height="31"/>
