@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 6.23.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="e1w-nb-Chy">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="completed task " translatesAutoresizingMaskIntoConstraints="NO" id="e1w-nb-Chy">
                                 <rect key="frame" x="-70" y="-380" width="593" height="1715"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -103,7 +103,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 6.12.38 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Hkn-dp-RSe">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="to-do list background" translatesAutoresizingMaskIntoConstraints="NO" id="Hkn-dp-RSe">
                                 <rect key="frame" x="-128" y="-161" width="542" height="1207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -173,7 +173,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-06-29 at 7.59.19 PM" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-py-ACu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homepage" translatesAutoresizingMaskIntoConstraints="NO" id="zI0-py-ACu">
                                 <rect key="frame" x="-47" y="-216" width="495" height="1329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91976243260000001" green="0.77963124709999998" blue="0.76756459300000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -674,14 +674,14 @@
         <segue reference="q04-D3-wLz"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Screen Shot 2022-06-29 at 6.12.38 PM" width="320" height="564"/>
-        <image name="Screen Shot 2022-06-29 at 6.23.19 PM" width="336" height="542"/>
-        <image name="Screen Shot 2022-06-29 at 7.59.19 PM" width="570" height="956"/>
+        <image name="completed task " width="336" height="542"/>
         <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
+        <image name="homepage" width="570" height="956"/>
         <image name="list.bullet.rectangle.portrait" catalog="system" width="115" height="128"/>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <image name="timer" catalog="system" width="128" height="121"/>
         <image name="timer background " width="335" height="764"/>
+        <image name="to-do list background" width="320" height="564"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
