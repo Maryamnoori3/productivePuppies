@@ -35,12 +35,14 @@ class snacksViewController: UIViewController {
         UIApplication.shared.open (foodFourURL!)
     }
     
+    @IBAction func chia(_ sender: Any) {
+        let foodFiveURL = URL (string: "https://feelgoodfoodie.net/recipe/3-ingredient-chia-pudding/")
+        UIApplication.shared.open (foodFiveURL!)
+    }
+    
+    }
     
    
-    
-    
-    
-    
 
     /*
     // MARK: - Navigation
@@ -51,5 +53,3 @@ class snacksViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-}

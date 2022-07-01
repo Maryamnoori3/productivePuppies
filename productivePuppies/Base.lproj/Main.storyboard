@@ -453,7 +453,7 @@
                                     <color key="baseForegroundColor" red="0.54805987232932452" green="0.18842991281708704" blue="0.24668150203064965" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="bananas:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="5QE-Nh-dLT"/>
+                                    <action selector="bananas:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="ctH-Nu-mCy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lS5-uC-wdU">
@@ -465,6 +465,9 @@
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.54805987229999997" green="0.18842991279999999" blue="0.246681502" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="greek:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="Yji-Pc-C19"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ich-dC-sVM">
                                 <rect key="frame" x="60" y="505" width="295" height="66"/>
@@ -475,6 +478,9 @@
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.54805987229999997" green="0.18842991279999999" blue="0.246681502" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="ice:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="8CO-9k-qvu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm9-WM-3az">
                                 <rect key="frame" x="61" y="617" width="295" height="66"/>
@@ -485,16 +491,22 @@
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.54805987229999997" green="0.18842991279999999" blue="0.246681502" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="energy:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="WXV-HR-Wwt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qp-E2-nVG">
                                 <rect key="frame" x="61" y="722" width="295" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91976243260000001" green="0.46678103050000003" blue="0.49162713990000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="HUMMUS AND VEGGIES">
+                                <buttonConfiguration key="configuration" style="tinted" title="CHIA PUDDING">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.54805987229999997" green="0.18842991279999999" blue="0.246681502" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="chia:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="X2B-Ty-umK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pzz-9d-Lsf"/>
