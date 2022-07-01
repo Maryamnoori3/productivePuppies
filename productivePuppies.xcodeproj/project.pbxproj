@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E69ECE9286E9F8C00EF1073 /* walkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69ECE8286E9F8C00EF1073 /* walkViewController.swift */; };
 		2EA70F61286E5FAF004937A8 /* booksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F60286E5FAF004937A8 /* booksViewController.swift */; };
 		2EA70F63286E6E35004937A8 /* snacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F62286E6E35004937A8 /* snacksViewController.swift */; };
 		6311B3A1286E8A08008F8EB4 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6311B3A0286E8A08008F8EB4 /* gameViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E69ECE8286E9F8C00EF1073 /* walkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkViewController.swift; sourceTree = "<group>"; };
 		2EA70F60286E5FAF004937A8 /* booksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksViewController.swift; sourceTree = "<group>"; };
 		2EA70F62286E6E35004937A8 /* snacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snacksViewController.swift; sourceTree = "<group>"; };
 		6311B3A0286E8A08008F8EB4 /* gameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */,
 				63130F0C286B8BBE005D85A9 /* ViewController.swift */,
 				63130F0E286B8BBE005D85A9 /* Main.storyboard */,
+				2E69ECE8286E9F8C00EF1073 /* walkViewController.swift */,
 				6311B3A0286E8A08008F8EB4 /* gameViewController.swift */,
 				2EA70F62286E6E35004937A8 /* snacksViewController.swift */,
 				2EA70F60286E5FAF004937A8 /* booksViewController.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				6311B3A1286E8A08008F8EB4 /* gameViewController.swift in Sources */,
 				63F826C6286CEB90006E6038 /* ToDo.swift in Sources */,
+				2E69ECE9286E9F8C00EF1073 /* walkViewController.swift in Sources */,
 				2EA70F61286E5FAF004937A8 /* booksViewController.swift in Sources */,
 				63F826C4286CEB43006E6038 /* ToDoTableViewController.swift in Sources */,
 				63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */,
