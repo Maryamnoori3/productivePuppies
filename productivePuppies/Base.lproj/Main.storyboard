@@ -339,6 +339,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Take a Walk🚶‍♀️">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="C3V-Lo-wZy" kind="show" id="1wa-Y4-5fS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Aa-mP-oXY">
                                 <rect key="frame" x="20" y="351" width="374" height="67"/>
@@ -366,7 +369,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.61200018379999999" green="0.3113652489" blue="0.82033610379999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Meditate🧎‍♀️">
+                                <buttonConfiguration key="configuration" style="tinted" title="Yoga🧎‍♀️">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -663,6 +666,22 @@
             <point key="canvasLocation" x="1774" y="70"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="op8-Vm-V7h">
+            <objects>
+                <viewController id="C3V-Lo-wZy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VWB-2e-UyK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="iXO-Rx-Ghd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J7v-am-v86"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awV-Tk-pjq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2590" y="-298"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="gRF-x3-Bv3">
             <objects>
                 <viewController id="5Ah-P8-y2n" sceneMemberID="viewController">
@@ -670,18 +689,98 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yoga background" translatesAutoresizingMaskIntoConstraints="NO" id="8Fk-hh-nFT">
+                                <rect key="frame" x="-35" y="-35" width="485" height="994"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wry-ia-Cvx">
+                                <rect key="frame" x="52" y="112" width="260" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86344717375309687" green="1" blue="0.95212114020463778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.54805987229999997" green="0.18842991279999999" blue="0.246681502" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="☆">
+                                        <attributes>
+                                            <color key="NSColor" red="0.33552026750000002" green="0.52123534680000005" blue="0.53333777189999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="STSongti-SC-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Yoga Poses">
+                                        <attributes>
+                                            <color key="NSColor" red="0.33552026750000002" green="0.52123534680000005" blue="0.53333777189999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="MarkerFelt-Wide"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="☆">
+                                        <attributes>
+                                            <color key="NSColor" red="0.33552026750000002" green="0.52123534680000005" blue="0.53333777189999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="STSongti-SC-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.33552026750000002" green="0.52123534680000005" blue="0.53333777189999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="36" name="MarkerFelt-Wide"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yoga " translatesAutoresizingMaskIntoConstraints="NO" id="Vzc-lr-z9v">
-                                <rect key="frame" x="20" y="133" width="205" height="188"/>
+                                <rect key="frame" x="20" y="238" width="191" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="manyoga" translatesAutoresizingMaskIntoConstraints="NO" id="qio-Hj-QqE">
-                                <rect key="frame" x="189" y="354" width="205" height="188"/>
+                                <rect key="frame" x="197" y="444" width="197" height="182"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girly" translatesAutoresizingMaskIntoConstraints="NO" id="KrR-KL-DvQ">
-                                <rect key="frame" x="37" y="583" width="205" height="188"/>
+                                <rect key="frame" x="20" y="649" width="207" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qg4-eT-7CO">
+                                <rect key="frame" x="9" y="426" width="191" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Steps for Plank: Lay yoga mat on the floor. Go in push-up position, but using your forarms. Make sure your arms make a 90 degree angle. Steps for Bridge: Lay down on your back. After, hoist your hips up with your knees bent and your arms next to your ankles. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="n9f-jn-LF7">
+                                <rect key="frame" x="-11" y="214.5" width="88" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.33552026750000002" green="0.52123534680000005" blue="0.53333777189999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="03.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7D8-1V-q6g">
+                                <rect key="frame" x="0.0" y="635.5" width="90" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.26840978859999998" green="0.41536787149999999" blue="0.42745479939999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="02.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UT8-Ad-b37">
+                                <rect key="frame" x="344" y="405.5" width="82" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.33552026750000002" green="0.52123534680000005" blue="0.53333777189999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rM7-Xf-nZv">
+                                <rect key="frame" x="229" y="226" width="185" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Steps: Lay yoga mat on the floor. Go in push-up position and dip your hips in-wards. Then tip your feet so that they point the oppositie direction from your hands. Your should be facing directly in front of you. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-Lr-L4E">
+                                <rect key="frame" x="233" y="649" width="176" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Steps: Lay yoga mat on the floor. Criss-cross your legs with your feet tucked into your calves. Extend your hands so that they close together. Be still for a couple seconds to complete this pose!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vMu-cy-jwt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -823,6 +922,9 @@
         <segue reference="q04-D3-wLz"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="01.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="02.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="03.circle.fill" catalog="system" width="128" height="121"/>
         <image name="completed task " width="336" height="542"/>
         <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
         <image name="girly" width="222" height="212"/>
@@ -834,6 +936,7 @@
         <image name="timer background " width="335" height="764"/>
         <image name="to-do list background" width="320" height="564"/>
         <image name="yoga " width="216" height="202"/>
+        <image name="yoga background" width="360" height="712"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
