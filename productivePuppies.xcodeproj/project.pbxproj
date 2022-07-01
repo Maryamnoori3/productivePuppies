@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C74AAEF286EDB9A00EF22BF /* doodleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74AAEE286EDB9A00EF22BF /* doodleTableViewController.swift */; };
 		2E69ECE9286E9F8C00EF1073 /* walkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69ECE8286E9F8C00EF1073 /* walkViewController.swift */; };
 		2EA70F61286E5FAF004937A8 /* booksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F60286E5FAF004937A8 /* booksViewController.swift */; };
 		2EA70F63286E6E35004937A8 /* snacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F62286E6E35004937A8 /* snacksViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C74AAEE286EDB9A00EF22BF /* doodleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doodleTableViewController.swift; sourceTree = "<group>"; };
 		2E69ECE8286E9F8C00EF1073 /* walkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkViewController.swift; sourceTree = "<group>"; };
 		2EA70F60286E5FAF004937A8 /* booksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksViewController.swift; sourceTree = "<group>"; };
 		2EA70F62286E6E35004937A8 /* snacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snacksViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		63130F07286B8BBE005D85A9 /* productivePuppies */ = {
 			isa = PBXGroup;
 			children = (
+				1C74AAEE286EDB9A00EF22BF /* doodleTableViewController.swift */,
 				63130F08286B8BBE005D85A9 /* AppDelegate.swift */,
 				63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */,
 				63130F0C286B8BBE005D85A9 /* ViewController.swift */,
@@ -178,6 +181,7 @@
 				63130F13286B8BBE005D85A9 /* productivePuppies.xcdatamodeld in Sources */,
 				2EA70F63286E6E35004937A8 /* snacksViewController.swift in Sources */,
 				63F826F3286E1429006E6038 /* musicViewController.swift in Sources */,
+				1C74AAEF286EDB9A00EF22BF /* doodleTableViewController.swift in Sources */,
 				63130F09286B8BBE005D85A9 /* AppDelegate.swift in Sources */,
 				63F826CA286CF17A006E6038 /* CompleteToDoViewController.swift in Sources */,
 				63130F0B286B8BBE005D85A9 /* SceneDelegate.swift in Sources */,
