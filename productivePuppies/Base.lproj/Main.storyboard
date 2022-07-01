@@ -419,10 +419,10 @@
             </objects>
             <point key="canvasLocation" x="986.95652173913049" y="69.642857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Snacks View Controller-->
         <scene sceneID="4t5-h0-nYv">
             <objects>
-                <viewController id="f3r-TJ-u5a" sceneMemberID="viewController">
+                <viewController id="f3r-TJ-u5a" customClass="snacksViewController" customModule="productivePuppies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rm5-Wk-n5G">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -452,6 +452,9 @@
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.54805987232932452" green="0.18842991281708704" blue="0.24668150203064965" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="bananas:" destination="f3r-TJ-u5a" eventType="touchUpInside" id="5QE-Nh-dLT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lS5-uC-wdU">
                                 <rect key="frame" x="61" y="395" width="295" height="66"/>
@@ -506,7 +509,7 @@
         <!--View Controller-->
         <scene sceneID="7NB-Lh-8jm">
             <objects>
-                <viewController id="3ad-ra-XQ5" sceneMemberID="viewController">
+                <viewController id="3ad-ra-XQ5" customClass="ViewController" customModule="productivePuppies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0S4-3V-IOG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -519,10 +522,10 @@
             </objects>
             <point key="canvasLocation" x="1774" y="743"/>
         </scene>
-        <!--Books Table View Controller-->
+        <!--Books View Controller-->
         <scene sceneID="we2-57-xPE">
             <objects>
-                <viewController id="U6j-IN-rTL" customClass="booksTableViewController" customModule="productivePuppies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="U6j-IN-rTL" customClass="booksViewController" customModule="productivePuppies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FGv-ga-DGM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -536,6 +539,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="The Hunger Games by Suzanne Collins">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="hungerGames:" destination="U6j-IN-rTL" eventType="touchUpInside" id="89g-1T-AT7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HhI-Ft-U5f">
                                 <rect key="frame" x="60" y="367" width="295" height="52"/>
@@ -546,6 +552,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Speak by Laurie Halse Anderson">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="speak:" destination="U6j-IN-rTL" eventType="touchUpInside" id="TRp-qc-Rjh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoz-ne-wr3">
                                 <rect key="frame" x="60" y="529" width="295" height="57"/>
@@ -556,6 +565,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Dumplin' by Julie Murphy">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="dumplin:" destination="U6j-IN-rTL" eventType="touchUpInside" id="FGy-54-BKi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycA-Z4-OSq">
                                 <rect key="frame" x="60" y="613" width="295" height="60"/>
@@ -566,6 +578,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Anna K: A Love Story by Jenny Lee">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="annaK:" destination="U6j-IN-rTL" eventType="touchUpInside" id="0dl-S1-uYz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sea-8K-zYw">
                                 <rect key="frame" x="60" y="700" width="295" height="60"/>
@@ -576,6 +591,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="The Fault in Our Stars by John Green">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="theFaultInOurStars:" destination="U6j-IN-rTL" eventType="touchUpInside" id="g4x-ez-jts"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYj-nA-AAS">
                                 <rect key="frame" x="60" y="786" width="295" height="51"/>
@@ -586,6 +604,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Persepolis by Marjane Satrapi">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="persepolis:" destination="U6j-IN-rTL" eventType="touchUpInside" id="2Q6-BT-0yg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpZ-mM-pVd">
                                 <rect key="frame" x="60" y="446" width="295" height="56"/>
@@ -596,6 +617,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="The Hate U Give by Angie Thomas">
                                     <fontDescription key="titleFontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="theHateUGive:" destination="U6j-IN-rTL" eventType="touchUpInside" id="DUZ-3G-czP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pou-w4-5Qm">
                                 <rect key="frame" x="83" y="114" width="249" height="126"/>

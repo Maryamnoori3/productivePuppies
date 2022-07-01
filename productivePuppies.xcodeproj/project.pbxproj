@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EA70F3A286E3233004937A8 /* booksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F39286E3233004937A8 /* booksTableViewController.swift */; };
+		2EA70F61286E5FAF004937A8 /* booksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F60286E5FAF004937A8 /* booksViewController.swift */; };
+		2EA70F63286E6E35004937A8 /* snacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA70F62286E6E35004937A8 /* snacksViewController.swift */; };
 		63130F09286B8BBE005D85A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F08286B8BBE005D85A9 /* AppDelegate.swift */; };
 		63130F0B286B8BBE005D85A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */; };
 		63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63130F0C286B8BBE005D85A9 /* ViewController.swift */; };
@@ -23,7 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EA70F39286E3233004937A8 /* booksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksTableViewController.swift; sourceTree = "<group>"; };
+		2EA70F60286E5FAF004937A8 /* booksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = booksViewController.swift; sourceTree = "<group>"; };
+		2EA70F62286E6E35004937A8 /* snacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snacksViewController.swift; sourceTree = "<group>"; };
 		63130F05286B8BBE005D85A9 /* productivePuppies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = productivePuppies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63130F08286B8BBE005D85A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,7 +76,8 @@
 				63130F0A286B8BBE005D85A9 /* SceneDelegate.swift */,
 				63130F0C286B8BBE005D85A9 /* ViewController.swift */,
 				63130F0E286B8BBE005D85A9 /* Main.storyboard */,
-				2EA70F39286E3233004937A8 /* booksTableViewController.swift */,
+				2EA70F62286E6E35004937A8 /* snacksViewController.swift */,
+				2EA70F60286E5FAF004937A8 /* booksViewController.swift */,
 				63F826F2286E1429006E6038 /* musicViewController.swift */,
 				63F826C9286CF17A006E6038 /* CompleteToDoViewController.swift */,
 				63F826C7286CF040006E6038 /* AddToDoViewController.swift */,
@@ -160,14 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F826C6286CEB90006E6038 /* ToDo.swift in Sources */,
+				2EA70F61286E5FAF004937A8 /* booksViewController.swift in Sources */,
 				63F826C4286CEB43006E6038 /* ToDoTableViewController.swift in Sources */,
 				63130F0D286B8BBE005D85A9 /* ViewController.swift in Sources */,
 				63F826C8286CF040006E6038 /* AddToDoViewController.swift in Sources */,
 				63130F13286B8BBE005D85A9 /* productivePuppies.xcdatamodeld in Sources */,
+				2EA70F63286E6E35004937A8 /* snacksViewController.swift in Sources */,
 				63F826F3286E1429006E6038 /* musicViewController.swift in Sources */,
 				63130F09286B8BBE005D85A9 /* AppDelegate.swift in Sources */,
 				63F826CA286CF17A006E6038 /* CompleteToDoViewController.swift in Sources */,
-				2EA70F3A286E3233004937A8 /* booksTableViewController.swift in Sources */,
 				63130F0B286B8BBE005D85A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
