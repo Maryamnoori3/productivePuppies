@@ -369,6 +369,9 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Meditate🧎‍♀️">
                                     <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="5Ah-P8-y2n" kind="show" id="8P0-m9-Ot4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVy-Ga-7wZ">
                                 <rect key="frame" x="61" y="162" width="292" height="126"/>
@@ -659,6 +662,36 @@
             </objects>
             <point key="canvasLocation" x="1774" y="70"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gRF-x3-Bv3">
+            <objects>
+                <viewController id="5Ah-P8-y2n" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zN6-YX-QgZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yoga " translatesAutoresizingMaskIntoConstraints="NO" id="Vzc-lr-z9v">
+                                <rect key="frame" x="20" y="133" width="205" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="manyoga" translatesAutoresizingMaskIntoConstraints="NO" id="qio-Hj-QqE">
+                                <rect key="frame" x="189" y="354" width="205" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girly" translatesAutoresizingMaskIntoConstraints="NO" id="KrR-KL-DvQ">
+                                <rect key="frame" x="37" y="583" width="205" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vMu-cy-jwt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="S6E-e8-siX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="01o-kJ-ZAl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2589.8550724637685" y="381.69642857142856"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xd9-Xn-40p">
             <objects>
@@ -792,12 +825,15 @@
     <resources>
         <image name="completed task " width="336" height="542"/>
         <image name="cup.and.saucer.fill" catalog="system" width="128" height="91"/>
+        <image name="girly" width="222" height="212"/>
         <image name="homepage" width="570" height="956"/>
         <image name="list.bullet.rectangle.portrait" catalog="system" width="115" height="128"/>
+        <image name="manyoga" width="220" height="210"/>
         <image name="music.note.list" catalog="system" width="128" height="115"/>
         <image name="timer" catalog="system" width="128" height="121"/>
         <image name="timer background " width="335" height="764"/>
         <image name="to-do list background" width="320" height="564"/>
+        <image name="yoga " width="216" height="202"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
